@@ -42,7 +42,10 @@ public class SaidaDadosJava {
 
 		/*
 		 * Regra geral para printf: "TEXTO1 %f TEXTO2 %f TEXTO3", variavel1, variavel2
-		 * %f = ponto flutuante %d = inteiro %s = texto %n = quebra de linha
+		 * %f = ponto flutuante
+		 * %d = inteiro
+		 * %s = texto 
+		 * %n ou \n = quebra de linha
 		 */
 
 		String nome = "Maria";
