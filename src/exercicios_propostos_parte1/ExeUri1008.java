@@ -27,6 +27,14 @@ public class ExeUri1008 {
 		System.out.println("Digite o numero do funcionario:");
 		int numFuncionario = sc.nextInt();
 		System.out.println("Digite o total de horas trabalhadas:");
+		int totalHoraTrabalhada = sc.nextInt();
+		System.out.println("Digite o valor da hora trabalhada:");
+		double valorHora = sc.nextDouble();
+		
+		double salario = valorHora * totalHoraTrabalhada;
+		System.out.println("Numero = "+numFuncionario);
+		System.out.printf("Salario = %.2f\n",salario);
+		
 		
 		
 		
